@@ -10,7 +10,7 @@ echo ================================================================
 echo.
 
 :: Detect Python
-set PYTHON="C:\Users\tamil\.platformio\penv\Scripts\python.exe"
+set PYTHON="%USERPROFILE%\.platformio\penv\Scripts\python.exe"
 if not exist %PYTHON% (
     for /f "delims=" %%i in ('where python 2^>nul') do (
         set PYTHON="%%i"
@@ -20,7 +20,7 @@ if not exist %PYTHON% (
 :found_py
 
 :: Detect esptool.py
-set ESPTOOL="C:\Users\tamil\.platformio\packages\tool-esptoolpy\esptool.py"
+set ESPTOOL="%USERPROFILE%\.platformio\packages\tool-esptoolpy\esptool.py"
 if not exist %ESPTOOL% (
     for /f "delims=" %%i in ('where esptool.py 2^>nul') do (
         set ESPTOOL="%%i"

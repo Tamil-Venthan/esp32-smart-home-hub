@@ -10,13 +10,13 @@ echo ================================================================
 echo.
 
 :: Detect Python environment
-set PYTHON="C:\Users\tamil\.platformio\penv\Scripts\python.exe"
+set PYTHON="%USERPROFILE%\.platformio\penv\Scripts\python.exe"
 if not exist %PYTHON% (
     set PYTHON=python
 )
 
 :: Locate esptool.py
-set ESPTOOL="C:\Users\tamil\.platformio\packages\tool-esptoolpy\esptool.py"
+set ESPTOOL="%USERPROFILE%\.platformio\packages\tool-esptoolpy\esptool.py"
 if not exist %ESPTOOL% (
     for /f "delims=" %%i in ('where esptool.py 2^>nul') do set ESPTOOL="%%i"
 )
