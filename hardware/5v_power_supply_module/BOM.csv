@@ -1,0 +1,20 @@
+Designator,Value,Footprint,Description,Type,Qty
+U1,HLK-10M05,Converter_ACDC:Converter_ACDC_Hi-Link_HLK-10Mxx,10W (5V 2A) Isolated AC-DC Converter,Through-Hole,1
+U2,LM1117T-3.3,Package_TO_SOT_THT:TO-220-3_Vertical,3.3V 1A LDO Linear Regulator (TO-220),Through-Hole,1
+F1,2A 250V Slow,Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,5x20mm Cartridge Fuseholder & Fuse,Through-Hole,1
+MOV1,14D471K,Varistor:RV_Disc_D12mm_W5.4mm_P7.5mm,Metal Oxide Varistor (470V Clamping),Through-Hole,1
+RT1,10D-9,Resistor_THT:R_Radial_Power_L11.0mm_W7.0mm_P5.00mm,NTC Inrush Current Limiter (10 Ohm),Through-Hole,1
+J1,220V AC IN,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal,2-Pin 5.08mm Screw Terminal,Through-Hole,1
+J2,5V Relays Out,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal,4-Pin 5.08mm Screw Terminal (Dual 5V / Dual GND),Through-Hole,1
+J3,3.3V Out,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal,2-Pin 5.08mm Screw Terminal (3.3V / GND),Through-Hole,1
+J4,5V Pin Header,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1x4 2.54mm Pin Header (Dual 5V / Dual GND),Through-Hole,1
+J5,3.3V Pin Header,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1x4 2.54mm Pin Header (Dual 3.3V / Dual GND),Through-Hole,1
+C1,1000uF 16V,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,Low-ESR Bulk Reservoir Capacitor,Through-Hole,1
+C2,100nF 50V,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,Ceramic Disc Decoupling Capacitor,Through-Hole,1
+C3,10uF 16V,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Radial Electrolytic LDO Input Filter,Through-Hole,1
+C4,100uF 16V,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,Radial Electrolytic LDO Output Filter,Through-Hole,1
+C5,100nF 50V,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,Ceramic Disc Output Decoupling,Through-Hole,1
+R1, R2,1k 1/4W,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1/4W 5% Carbon/Metal Film Axial Resistor,Through-Hole,2
+LED1,5mm Green,LED_THT:LED_D5.0mm,5mm Green Through-Hole LED (5V Power OK),Through-Hole,1
+LED2,5mm Blue,LED_THT:LED_D5.0mm,5mm Blue Through-Hole LED (3.3V Power OK),Through-Hole,1
+H1 - H4,M3 Holes,MountingHole:MountingHole_3.2mm_M3,3.2mm Unplated Chassis Mounting Holes,Through-Hole,4

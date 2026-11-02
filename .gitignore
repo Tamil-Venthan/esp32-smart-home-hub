@@ -1,0 +1,50 @@
+# ==========================================
+# ESP32 Home Automation Repository .gitignore
+# ==========================================
+
+# PlatformIO & Embedded Build Output
+.pio/
+.vscode/
+compile_commands.json
+*.o
+*.d
+*.a
+*.elf
+
+# Keep precompiled distribution binaries in bin/
+!/firmware/esp32_wroom_production/bin/*.bin
+!/firmware/esp32_s3_16mb/bin/*.bin
+
+# KiCad Workspace & Autosave Files
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.bck
+*.lck
+_autosave-*
+*.tmp
+*~
+
+# Python Caches & Virtual Environs
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Sensitive Credentials (if any created in the future)
+credentials.ini
+secrets.h
+private_wifi.h

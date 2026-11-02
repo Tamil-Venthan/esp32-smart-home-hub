@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP RainMaker Pairing QR Code</title>
+    <style>
+        body {
+            background: #0d1117;
+            color: #f0f6fc;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            max-width: 450px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        h2 { margin-top: 0; color: #58a6ff; }
+        .qr-box {
+            background: white;
+            padding: 16px;
+            border-radius: 12px;
+            display: inline-block;
+            margin: 20px 0;
+        }
+        img { display: block; width: 280px; height: 280px; }
+        .details {
+            background: #21262d;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 14px;
+            text-align: left;
+            margin-top: 15px;
+        }
+        .details div { margin: 5px 0; }
+        code {
+            background: #0d1117;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #7ee787;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>ESP RainMaker Pairing</h2>
+        <p style="color: #8b949e; font-size: 14px;">Point your ESP RainMaker app camera directly at this QR code:</p>
+        <div class="qr-box">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=%7B%22ver%22%3A%22v1%22%2C%22name%22%3A%22PROV_0F5B70%22%2C%22pop%22%3A%22smart123%22%2C%22transport%22%3A%22ble%22%7D" alt="ESP RainMaker QR Code">
+        </div>
+        <div class="details">
+            <div><b>Device Name:</b> <code>PROV_SMARTHOME</code></div>
+            <div><b>Proof of Possession (PoP):</b> <code>smart123</code></div>
+            <div><b>Transport:</b> <code>Wi-Fi (SoftAP)</code></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Comment,Designator,Footprint,Description,Quantity,Mounting Type
+HLK-10M05,U1,Converter_ACDC:Converter_ACDC_Hi-Link_HLK-10Mxx,10W (5V 2A) Isolated AC-DC Power Module,1,Through-Hole
+LM1117T-3.3,U2,Package_TO_SOT_THT:TO-220-3_Vertical,3.3V 1A LDO Linear Voltage Regulator (TO-220),1,Through-Hole
+2A 250V Slow-Blow,F1,Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,5x20mm Cartridge Fuse + Open PCB Fuse Clips,1,Through-Hole
+14D471K,MOV1,Varistor:RV_Disc_D12mm_W5.4mm_P7.5mm,Metal Oxide Varistor (470V Clamping Surge Protection),1,Through-Hole
+10D-9,RT1,Resistor_THT:R_Radial_Power_L11.0mm_W7.0mm_P5.00mm,NTC Inrush Current Limiter (10 Ohm Cold),1,Through-Hole
+220V AC IN,J1,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal,2-Pin 5.08mm Screw Terminal (L / N),1,Through-Hole
+5V Relays Out,J2,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal,4-Pin 5.08mm Screw Terminal (Dual +5V / Dual GND),1,Through-Hole
+3.3V Out,J3,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal,2-Pin 5.08mm Screw Terminal (+3.3V / GND),1,Through-Hole
+5V Dupont Hdr,J4,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1x4 2.54mm Male Pin Header (Dual +5V / Dual GND),1,Through-Hole
+3.3V Dupont Hdr,J5,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1x4 2.54mm Male Pin Header (Dual +3.3V / Dual GND),1,Through-Hole
+1000uF 16V,C1,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,Low-ESR Radial Electrolytic Capacitor (5V Bulk Reservoir),1,Through-Hole
+100nF 50V,C2,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,50V Ceramic Disc Decoupling Capacitor (5V Rail),1,Through-Hole
+10uF 16V,C3,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Radial Electrolytic Input Filter Capacitor (LM1117 Input),1,Through-Hole
+100uF 16V,C4,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,Radial Electrolytic Output Filter Capacitor (3.3V Rail),1,Through-Hole
+100nF 50V,C5,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,50V Ceramic Disc Decoupling Capacitor (3.3V Rail),1,Through-Hole
+1k 1/4W,R1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1/4W 5% Axial Resistor (5V LED Current Limiter),1,Through-Hole
+1k 1/4W,R2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1/4W 5% Axial Resistor (3.3V LED Current Limiter),1,Through-Hole
+5mm Green,LED1,LED_THT:LED_D5.0mm,5mm Green Through-Hole LED (5V Power OK),1,Through-Hole
+5mm Blue,LED2,LED_THT:LED_D5.0mm,5mm Blue Through-Hole LED (3.3V Power OK),1,Through-Hole
+M3 Holes,H1 H2 H3 H4,MountingHole:MountingHole_3.2mm_M3,3.2mm Unplated Chassis Mounting Holes,4,Mechanical
