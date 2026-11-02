@@ -5,7 +5,11 @@
 [![Cloud: ESP RainMaker (AWS IoT)](https://img.shields.io/badge/Cloud-ESP%20RainMaker-success.svg)](https://rainmaker.espressif.com/)
 [![EDA: KiCad](https://img.shields.io/badge/EDA-KiCad%20v8%20%2F%20v9%20%2F%20v10-blueviolet.svg)](https://kicad.org/)
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-green.svg)]()
-[![License: Private & Proprietary](https://img.shields.io/badge/License-Private%20%26%20Proprietary-red.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> [!CAUTION]
+> **HIGH VOLTAGE WARNING & ELECTRICAL SAFETY DISCLAIMER**  
+> This project involves **110V – 240V AC Mains electricity**, which can cause fatal electrocution, severe burns, electrical arc flashes, and house fires. All hardware designs, PCB Gerbers, schematics, and firmware are provided **"AS IS" for educational and experimental research purposes only**. The authors and contributors assume **NO LIABILITY** for any injury, loss of life, fire hazard, equipment destruction, or code violations. Anyone constructing or connecting these circuits does so **entirely at their own risk**. Always turn off the main circuit breaker (MCB) before touching AC terminals, use flame-retardant enclosures, and consult a certified electrician.
 
 An industrial-grade, production-tested **Smart Home Automation Ecosystem** supporting both **ESP32-WROOM-32** and **ESP32-S3** microcontrollers.  
 Combines **free worldwide cloud control** (ESP RainMaker + Google Home + Alexa) with an **instant fallback offline web dashboard (`192.168.4.1`)**, **230V AC physical wall switch 2-way synchronization**, **DHT11 climate monitoring**, **wireless Web OTA updating**, and custom-designed **isolated dual-rail power & optocoupler PCBs**.
@@ -143,8 +147,24 @@ ESP32_Home_Automation_Repository/
 │   └── README_TOOLS.md
 │
 ├── .gitignore                            <-- Clean git rules (preserves binaries, ignores caches)
-└── LICENSE                               <-- Private & Confidential Proprietary License
+└── LICENSE                               <-- MIT License with 230V AC Electrical Safety Disclaimer
 ```
+
+---
+
+## ⚠️ 230V AC Mains Electrical Safety & Disclaimer
+
+1. **Lethal Voltage Hazard:** 110V–240V AC Mains power carries fatal electrocution and arc flash risks.
+2. **Proper Isolation:** Never bridge or defeat the 2.0mm physical milling isolation slot on the power supply PCB. Never connect AC Mains lines directly to ESP32 low-voltage pins.
+3. **Enclosure Requirement:** Always install AC power boards and optocoupler boards inside a flame-retardant ABS or polycarbonate junction box with proper strain-relief cable glands.
+4. **No Liability:** The creator and contributors of this repository disclaim all liability for any personal injury, loss of life, fire, or property damage resulting from building or operating this hardware. All work on AC mains is conducted strictly at the builder's own risk.
+
+---
+
+## 📄 License
+
+This project is licensed under the [**MIT License**](LICENSE) with an integrated **230V AC Mains Electrical Safety & Liability Waiver**.  
+Copyright (c) 2026 Tamil-Venthan.
 
 ---
 

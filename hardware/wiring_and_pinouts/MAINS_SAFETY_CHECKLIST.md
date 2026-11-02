@@ -39,3 +39,8 @@ Before flipping on the main AC breaker:
 3. [ ] **Fuse Verified:** Ensure a `2A 250V Slow-Blow Fuse (5x20mm)` is seated firmly in the fuse holder.
 4. [ ] **Creepage Clearance:** Ensure no loose stray wire strands bridge the 2.0mm isolation slot on the power board.
 5. [ ] **Insulated Enclosure:** Mount all AC boards inside a fire-resistant ABS plastic junction box. Never operate bare boards on metallic or conductive surfaces!
+
+---
+
+## 📜 Disclaimer & Liability Waiver
+All electrical wiring schematics, hardware designs, and safety checklists in this repository are published for educational and experimental purposes only. Working with 110V – 240V AC Mains electricity carries fatal shock and fire hazards. The authors and contributors assume NO RESPONSIBILITY OR LIABILITY for any injury, electrocution, fatality, fire, equipment failure, or local electrical code violations. Work with high-voltage AC mains entirely at your own risk. Consult a licensed electrician if you are not fully certified in domestic electrical installations.
